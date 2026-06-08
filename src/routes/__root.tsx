@@ -89,6 +89,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Lovable App" },
       { name: "twitter:description", content: "Your CSV Vault is a web application for viewing, storing, and managing CSV files with user accounts." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2c45b5a4-b4c6-49c4-bbe2-03acef546b8d/id-preview-8af7bf5b--d5d544b6-7568-44cd-ad73-e47491a434f3.lovable.app-1780913694727.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2c45b5a4-b4c6-49c4-bbe2-03acef546b8d/id-preview-8af7bf5b--d5d544b6-7568-44cd-ad73-e47491a434f3.lovable.app-1780913694727.png" },
     ],
     links: [
       {
