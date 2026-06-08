@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies and Build Outputs
 node_modules
 dist
 dist-ssr
@@ -14,6 +15,13 @@ dist-ssr
 .vinxi
 .tanstack/**
 .nitro
+
+# Local Environment Variables (Crucial for protecting your Supabase keys)
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
 *.local
 
 # Wrangler / Cloudflare
