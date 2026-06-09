@@ -1,0 +1,1 @@
+import{j as o}from"./index-C9OofoHC.js";import{A as e}from"./AppHeader-CrRxJqE3.js";const t=()=>o.jsxs("div",{className:"min-h-screen bg-background",children:[o.jsx(e,{}),o.jsx("main",{className:"mx-auto max-w-2xl p-8 text-center",children:o.jsx("h1",{className:"text-xl font-semibold",children:"File not found"})})]});export{t as notFoundComponent};

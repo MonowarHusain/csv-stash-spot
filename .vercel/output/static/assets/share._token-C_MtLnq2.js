@@ -1,0 +1,1 @@
+import{j as o}from"./index-C9OofoHC.js";import{E as t}from"./share._token-DOSD1w56.js";import"./AppHeader-CrRxJqE3.js";const p=()=>o.jsx(t,{msg:"Share link not found"});export{p as notFoundComponent};
