@@ -5,14 +5,14 @@ import viteReact from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { nitro } from 'nitro/vite';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [
     tailwindcss(),
     tsconfigPaths(),
     tanstackStart(), // This completely replaces the Lovable wrapper
-    nitro({
+    command === 'build' ? nitro({
       preset: 'vercel',
-    }),
+    }) : undefined,
     viteReact(),
   ],
-});
+}));
