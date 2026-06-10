@@ -20,7 +20,7 @@ import puppeteer from 'puppeteer';
     console.log('REQUEST FAILED:', request.url(), request.failure().errorText);
   });
 
-  await page.goto('http://localhost:5173', { waitUntil: 'networkidle0' });
+  await page.goto('http://localhost:5173', { waitUntil: 'domcontentloaded' });
   
   await browser.close();
 })();
